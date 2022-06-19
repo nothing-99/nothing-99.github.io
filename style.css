@@ -1,0 +1,24 @@
+@import "src/css/reset.css";
+
+/* conatainer */
+@import "src/css/container/time.css";
+@import "src/css/container/weather.css";
+@import "src/css/container/user.css";
+@import "src/css/container/todo.css";
+
+
+body {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}

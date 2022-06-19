@@ -1,1 +1,55 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <title>TodoList</title>
+</head>
+<body>
+  <main class="main-container">
+
+    <!-- time -->
+    <div class="time-container">
+      <!-- time text -->
+      <span></span>
+      <!-- day text -->
+      <span></span>
+    </div>
+
+    <!-- weather -->
+    <div class="weather-container">
+      <!-- weather -->
+      <span></span>
+      <!-- country -->
+      <span></span>
+    </div>
+
+    <!-- user -->
+    <div class="user-container">
+      <form>
+        <input type="text" placeholder="login (your name)">
+      </form>
+      <span class="hidden"></span>
+    </div>
+
+    <!-- todo -->
+    <div class="todo-container">
+      <span class="todo-title">Todo</span>
+      <ul class="todo-list"></ul>
+      <form class="todo-input">
+        <input type="text" placeholder="오늘 할 일 추가">
+      </form>
+    </div>
+
+  </main>
+  <script src="src/js/background.js"></script>
+  <script src="src/js/time.js"></script>
+  <script src="src/js/weather.js"></script>
+  <script src="src/js/user.js"></script>
+  <script src="src/js/todo.js"></script> -->
+  <!-- <script src=""></script> -->
+</body>
+</html>
